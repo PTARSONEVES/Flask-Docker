@@ -46,4 +46,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD flask --app hello run --host=0.0.0.0
+CMD ["flask", "--app", "squallo", "run", "--host=0.0.0.0"]
